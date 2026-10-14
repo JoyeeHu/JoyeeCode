@@ -1,0 +1,11 @@
+# 操作系统生成的杂项文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# 编辑器个人配置
+.vscode/
+.idea/
+*.swp
