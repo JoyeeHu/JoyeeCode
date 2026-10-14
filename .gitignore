@@ -1,11 +1,97 @@
-# 操作系统生成的杂项文件
+# ==================== C / C++ ====================
+# 编译产物
+*.o
+*.obj
+*.lo
+*.slo
+*.a
+*.lib
+*.la
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.elf
+*.bin
+
+# 调试信息与依赖描述文件
+*.d
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.stackdump
+*.su
+core
+
+# 覆盖率报告
+*.gcda
+*.gcno
+*.gcov
+
+# CMake / Make 构建目录与自动生成文件
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+compile_commands.json
+# 注意：默认不忽略 Makefile，避免手动编写的构建脚本被漏提交。
+# 如果你的项目用 CMake 或 Autotools 自动生成 Makefile，可取消下一行注释：
+# Makefile
+
+# CLion / Qt Creator 等 IDE 的工程文件
+.cmake/
+*.user
+*.autosave
+
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+
+# 打包与分发
+dist/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+pip-wheel-metadata/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+
+# 测试与静态检查缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter 检查点
+.ipynb_checkpoints/
+
+# ==================== 编辑器 / 操作系统 ====================
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
 
-# 编辑器个人配置
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
